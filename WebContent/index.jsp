@@ -15,7 +15,7 @@
 			<b>Оценка:</b><br> <select name="evaluation">
 				<option selected value="Отлично">Отлично</option>
 				<option value="Хорошо">Хорошо</option>
-				<option value="Плохо">Пффлохо</option>
+				<option value="Плохо">Плохо</option>
 			</select>
 		</p>
 
