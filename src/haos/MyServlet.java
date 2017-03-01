@@ -5,8 +5,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
 
-public class MyServlet extends javax.servlet.http.HttpServlet {
+public class MyServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
     static DBWorker worker = new DBWorker();
