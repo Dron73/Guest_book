@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
-<title>Книга отзывов</title>
+<title>Книга отфывзывов</title>
 </head>
 <body>
 	<form method="GET" action="/MyServlet">
@@ -15,7 +15,7 @@
 			<b>Оценка:</b><br> <select name="evaluation">
 				<option selected value="Отлично">Отлично</option>
 				<option value="Хорошо">Хорошо</option>
-				<option value="Плохо">Плохо</option>
+				<option value="Плохо">Пффлохо</option>
 			</select>
 		</p>
 

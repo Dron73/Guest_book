@@ -14,7 +14,7 @@ public class Main {
 	    ResultSet resultSet = statement.executeQuery(query);
 
 	    while (resultSet.next()) {
-		userName userName = new userName();
+		UserName userName = new UserName();
 		userName.setName(resultSet.getString("name"));
 		userName.setEvaluation(resultSet.getString("evaluation"));
 		userName.setComment(resultSet.getString("comment"));
