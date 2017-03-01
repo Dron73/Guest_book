@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
-<title>Тестовый вариант</title>
+<title>Книга отзывов</title>
 </head>
 <body>
 	<form method="GET" action="/MyServlet">
