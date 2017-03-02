@@ -1,14 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
-<title>Книга отфывзывов</title>
+<title>Книга отзывов</title>
 </head>
 <body>
-	<form method="GET" action="/MyServlet">
+	<form method="GET" action="MyServlet">
 		<h1 align="center">Книга отзывов</h1>
 
 		<p>
-			<b>Ваше имя:</b><br> <input type="text" size="20" name="firstName">
+			<b>Ваше имя:</b><br> <input type="text" size="20" name="name">
 		</p>
 
 		<p>

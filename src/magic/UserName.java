@@ -1,4 +1,4 @@
-package haos;
+package magic;
 
 public class UserName {
 
@@ -65,6 +65,6 @@ public class UserName {
     }
 
     public String toString() {
-	return "<br>" + name + " " + evaluation + " " + comment + "</br>";
+	return "<br>"+ "User name: " + name + " Evaluation: " + evaluation + " Comment: " + comment + "</br>";
     }
 }
