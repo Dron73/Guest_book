@@ -55,7 +55,7 @@ public class MyServlet extends HttpServlet {
 		e.printStackTrace();
 	    }
 
-	} catch (SQLException | ClassNotFoundException e) {
+	} catch (Exception e) {
 	    e.printStackTrace();
 	}
     }

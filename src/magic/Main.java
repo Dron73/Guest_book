@@ -6,8 +6,7 @@ public class Main {
 
     static DBWorker worker = new DBWorker();
 
-    public static void addPost(String name, String evaluation, String comment)
-	    throws SQLException, ClassNotFoundException {
+    public static void addPost(String name, String evaluation, String comment){
 	try {
 	    String add = "INSERT INTO BOOK (NAME, EVALUATION, COMMENT) VALUES (?, ?, ?)";
 	    PreparedStatement ps = worker.getConnection().prepareStatement(add);
@@ -23,10 +22,10 @@ public class Main {
 	}
     }
 
-    public static void result() {
-	String query = "SELECT * FROM BOOK";
+    public static void result()  {
 
 	try {
+	    String query = "SELECT * FROM BOOK";
 	    PreparedStatement statement = worker.getConnection().prepareStatement(query);
 	    ResultSet resultSet = statement.executeQuery();
 
